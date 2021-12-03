@@ -1,0 +1,322 @@
+<!doctype>
+<html>
+<head><body style="background-color:thistle;"></body>
+<title>js</title>
+
+<script type="text/javascript">
+function Showall(name){
+
+if (name=="lays"){
+    var rate=10;
+    var quantity=document.getElementById("quantity1").value;
+    var total=rate*quantity;
+    var element=document.getElementById("print1");
+    element.innerHTML=total;
+}
+
+
+if (name=="kurkure"){
+    var rate=20;
+    var quantity=document.getElementById("quantity2").value;
+    var total=rate*quantity;
+    var element=document.getElementById("print2");
+    element.innerHTML=total;
+
+}
+
+if (name=="diarymilk"){
+    var rate=40;
+    var quantity=document.getElementById("quantity3").value;
+    var total=rate*quantity;
+    var element=document.getElementById("print3");
+    element.innerHTML=total;
+
+
+}
+if (name=="oreo"){
+    var rate=30;
+    var quantity=document.getElementById("quantity4").value;
+    var total=rate*quantity;
+    var element=document.getElementById("print4");
+    element.innerHTML=total;
+
+
+}
+if (name=="bourbon"){
+    var rate=20;
+    var quantity=document.getElementById("quantity5").value;
+    var total=rate*quantity;
+    var element=document.getElementById("print5");
+    element.innerHTML=total;
+
+}
+
+if (name=="coke"){
+    var rate=30;
+    var quantity=document.getElementById("quantity6").value;
+    var total=rate*quantity;
+    var element=document.getElementById("print6");
+    element.innerHTML=total;
+
+    
+}
+if (name=="maaza"){
+    var rate=55;
+    var quantity=document.getElementById("quantity7").value;
+    var total=rate*quantity;
+    var element=document.getElementById("print7");
+    element.innerHTML=total;
+
+}
+
+
+if (name=="parleG"){
+var rate=5;
+    var quantity=document.getElementById("quantity8").value;
+    var total=rate*quantity;
+    var element=document.getElementById("print8");
+    element.innerHTML=total;
+
+}
+if (name=="kitkat"){
+    var rate=10;
+    var quantity=document.getElementById("quantity9").value;
+    var total=rate*quantity;
+    var element=document.getElementById("print9");
+    element.innerHTML=total;
+
+}
+
+if (name=="cake"){
+    var rate=80;
+    var quantity=document.getElementById("quantity10").value;
+    var total=rate*quantity;
+    var element=document.getElementById("print10");
+    element.innerHTML=total;
+}
+if (name=="jimjam"){
+    var rate=25;
+    var quantity=document.getElementById("quantity11").value;
+    var total=rate*quantity;
+    var element=document.getElementById("print11");
+    element.innerHTML=total;
+
+}
+
+if (name=="ferrero"){
+    var rate=380;
+    var quantity=document.getElementById("quantity12").value;
+    var total=rate*quantity;
+    var element=document.getElementById("print12");
+    element.innerHTML=total;
+
+}
+if (name=="badammilk"){
+    var rate=45;
+    var quantity=document.getElementById("quantity13").value;
+    var total=rate*quantity;
+    var element=document.getElementById("print13");
+    element.innerHTML=total;
+
+}
+}
+</script>
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+            <img src="laysimg.jpg" width="8%"><br><br>
+            </td>
+       
+   
+        <td style="position: absolute;left: 30%;top: 10%;">
+          <form>  
+            <input type="button" value="price" onclick="Showall('lays')">
+            <input id="quantity1"name="number" type=number placeholder="quantity1"style="width:30%;"></input>
+            <button type="reset">clear</button>
+            <p name="value" id="print1"> </p>
+        </form>
+           
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="kurkure.jpg"width=8%><br><br>
+            </td>
+
+        <td style="position: absolute;left: 30%;top: 32%;">
+            <form>
+            <input type="button" value="price" onclick="Showall('kurkure')">
+          <input id="quantity2"name="number" type=number placeholder="quantity2"style="width:30%;"></input>
+          <button type="reset">clear</button>
+          <p name="value" id="print2"> </p>
+        </form>
+        </td>
+    </tr>    
+     
+    <tr>
+        <td>
+            <img src="diarymilk.jpg"width=8%><br><br>
+            </td>
+        <td style="position: absolute;left: 30%;top: 52%;">
+            <form>
+            <input type="button" value="price" onclick="Showall('diarymilk')">
+            <input id="quantity3"name="number" type=number placeholder="quantity3"style="width:30%;"></input>
+            <button type="reset">clear</button>
+            <p name="value" id="print3"></p>
+        </form>
+        </td>
+    </tr>    
+
+
+    <tr>
+        <td>
+            <img src="oreo.jpg"width=8%><br><br>
+            </td>
+        <td style="position: absolute;left: 30%;top:68% ;">
+            <form>
+                <input type="button" value="price" onclick="Showall('oreo')">
+            <input id="quantity4"name="number" type=number placeholder="quantity4"style="width:30%;"></input>
+            <button type="reset">clear</button>
+            <p name="value" id="print4"></p>
+        </form>
+        </td>
+    </tr>    
+
+    <tr>
+        <td>
+            <img src="bourbon.jpg"width=8%><br><br>
+            </td>
+        <td style="position: absolute;left: 30%;top: 85%;">
+            <form>
+                <input type="button" value="price" onclick="Showall('bourbon')">
+            <input id="quantity5"name="number" type=number placeholder="quantity5"style="width:30%;"></input>
+            <button type="reset">clear</button>
+            <p name="value" id="print5"></p>
+        </form>
+        </td>
+    </tr>    
+
+    <tr>
+        <td>
+            <img src="coke.jpg"width=8%><br><br>
+            </td>
+        <td style="position: absolute;left: 30%;top:108%;">
+            <form>
+                <input type="button" value="price" onclick="Showall('coke')">    
+            <input id="quantity6"name="number" type=number placeholder="quantity6"style="width:30%;"></input>
+            <button type="reset">clear</button>
+            <p name="value" id="print6"></p>
+        </form>
+        </td>
+    </tr>    
+
+    <tr>
+        <td>
+            <img src="maaza.jpg"width=8%><br><br><br>
+            </td>
+        <td style="position: absolute;left: 30%;top:128%;">
+            <form>
+                <input type="button" value="price" onclick="Showall('maaza')">  
+              <input id="quantity7"name="number" type=number placeholder="quantity7"style="width:30%;"></input>
+              <button type="reset">clear</button>
+              <p name="value" id="print7"></p>
+            </form>
+        </td>
+        </tr>
+
+        <tr>
+            
+            <td>
+                <img src="parleG.jpg"width=8%><br><br><br>
+                </td>
+            <td style="position: absolute;left: 30%;top: 152%;">
+                <form>
+                    <input type="button" value="price" onclick="Showall('parleG')">
+                    <input id="quantity8" name="number" type=number placeholder="quantity8" style="width:30%;"></input>
+                    <button type="reset">clear</button>       
+                    <p name="value" id="print8"></p>
+        </form>
+            </td>
+            </tr>
+        
+
+            <tr>
+                
+                <td>
+                    <img src="kitkat.jpg"width=8%><br><br>
+                    </td>
+                <td style="position: absolute;left: 30%;top: 170%;">
+                    <form>
+                        <input type="button" value="price" onclick="Showall('kitkat')">
+                       <input id="quantity9" name="number" type=number placeholder="quantity9" style="width:30%;"></input>
+                       <button type="reset">clear</button> 
+                       <p name="value" id="print9"></p>
+        </form>
+                </td>
+            </tr>
+    
+    <tr>
+            <td>
+                <img src="cake.jpg"width=8% height=3%><br><br><br>
+                </td>
+            <td style="position: absolute;left: 30%;top:189%;">
+                <form>
+                    <input type="button" value="price" onclick="Showall('cake')">
+                <input id="quantity10" name="number" type=number placeholder="quantity10" style="width:30%;"></input>
+                <button type="reset">clear</button> 
+                <p name="value" id="print10"></p>
+            </form>
+            </td>
+
+            <tr>
+                <td>
+                    <img src="jimjam.jpg"width=8% height=3%><br><br>
+                    </td>
+                <td style="position: absolute;left: 30%;top:211%;">
+                    <form>
+                        <input type="button" value="price" onclick="Showall('jimjam')">
+                    <input id="quantity11" name="number" type=number placeholder="quantity11" style="width:30%;"></input>
+                    <button type="reset">clear</button> 
+                    <p name="value" id="print11"></p>
+            </form>
+                </td>
+
+                
+            <tr>
+                <td>
+                    <img src="ferrero.jpg"width=8% height=3%><br><br>
+                    </td>
+                <td style="position: absolute;left: 30%;top: 226%;">
+                    <form>
+                   
+                        <input type="button" value="price" onclick="Showall('ferrero')">
+                   <input id="quantity12" name="number" type=number placeholder="quantity12" style="width:30%;"></input>
+                   <button type="reset">clear</button> 
+                   <p name="value" id="print12"></p>
+                     
+            </form>
+                </td>
+
+                <tr>
+                    <td>
+                        <img src="badammilk.jpg"width=10% height=5%>
+                        </td>
+                    <td style="position: absolute;left: 30%;top: 244%;">
+                        <form>
+                        <input type="button" value="price" onclick="Showall('badammilk')">
+                        <input id="quantity13" name="number" type=number placeholder="quantity13" style="width:30%;"></input>
+                        <button type="reset">clear</button>
+                        <p name="value" id="print13"></p>
+                            
+                    </form>
+                    </td>
+    
+
+
+    </tr>    
+
+
+</body>
+</html>
